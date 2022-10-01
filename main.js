@@ -1,8 +1,10 @@
 // 메뉴 카테고리
 
 let menus = document.querySelectorAll(".menus button");
+let alink = document.querySelectorAll(".link");
 console.log("menus", menus);
 menus.forEach((menu) => menu.addEventListener("click", (event)=>getNewsByTopic(event)));
+alink.forEach((link) => link.addEventListener("click", (event)=>getNewsByTopic(event)));
 
 
 let searchButton = document.querySelector(".searchBtn");
