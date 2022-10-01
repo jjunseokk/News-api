@@ -1,0 +1,112 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+/* 모바일 버전 메뉴바 */
+@media screen and (max-width:768px){
+    .sidenav {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: -350px;
+        background-color: #111;
+        overflow-x: hidden;
+        /* transition: 0.5s; */
+        padding-top: 60px;
+    }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    .sidenav a:hover{
+        color: white;
+    }
+    .closebtn{
+        position: absolute;
+        top: 0px;
+        right: 25px;
+    }
+    .buggerBtn{
+        font-size:20px;
+        cursor:pointer;
+        color: black;
+        margin: 0px 3px;
+    }
+    .buggerBtn{
+        text-decoration: none;
+    }
+    .menus{
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px){
+    .sidenav {
+        display: none;
+    }
+    .buggerBtn{
+        display: none;
+    }
+    .menus{
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        border-top: 1px solid #ebebeb;
+        border-bottom: 4px double #000;
+    }
+}
+.inputArea{
+    display: flex;
+}
+.search-icon{
+    color: black;
+    cursor: pointer;
+    margin: 8px 10px;
+}
+.search-area-on{
+    display: block;
+}
+.search-area-off{
+    display: none;
+}
+.searchBtn{
+    border: none;
+    width: 50px;
+    background-color: bisque;
+}
+.head-line{
+    margin-top: 1em;
+
+    display: flex;
+    justify-content: center;
+}
+
+.head-line svg{
+    width: 430px;
+}
+
+
+.menus button{
+    border: none;
+    background: none;
+    margin : 5px;
+}
+
+.menus button:hover{
+    background-color: beige;
+}
+
+.news-img-size{
+    max-width: 100%; 
+    max-height: 250px;
+}
+
+.news{
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+}
