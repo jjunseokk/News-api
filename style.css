@@ -1,8 +1,8 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 
 /* 모바일 버전 메뉴바 */
-@media screen and (max-width:768px){
-    .sidenav {
+@media screen and (max-width:769px){
+    #mySidenav {
         height: 100%;
         width: 50%;
         position: fixed;
@@ -14,7 +14,7 @@
         /* transition: 0.5s; */
         padding-top: 60px;
     }
-    .sidenav a {
+    #mySidenav a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
@@ -22,7 +22,7 @@
         display: block;
         transition: 0.3s;
     }
-    .sidenav a:hover{
+    #mySidenav a:hover{
         color: white;
     }
     .closebtn{
@@ -45,7 +45,7 @@
 }
 
 @media screen and (min-width:769px){
-    .sidenav {
+    #mySidenav {
         display: none;
     }
     .buggerBtn{
@@ -91,15 +91,7 @@
 }
 
 
-.menus button{
-    border: none;
-    background: none;
-    margin : 5px;
-}
 
-.menus button:hover{
-    background-color: beige;
-}
 
 .news-img-size{
     max-width: 100%; 
