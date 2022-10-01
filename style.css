@@ -90,8 +90,14 @@
     width: 430px;
 }
 
-
-
+.menus button{
+    margin: 0px 10px;
+    border: none;
+    background-color: transparent;
+}
+.menus button:hover{
+   background-color: bisque;
+}
 
 .news-img-size{
     max-width: 100%; 
