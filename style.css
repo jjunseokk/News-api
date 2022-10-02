@@ -108,3 +108,9 @@
     border-bottom: 2px solid black;
     padding: 10px 0px;
 }
+
+.pageNav{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
